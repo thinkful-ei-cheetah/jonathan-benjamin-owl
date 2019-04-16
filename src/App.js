@@ -1,24 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
-import List from './List.js';
+import ParticipantList from './ParticipantList.js';
+import Stage from './Stage.js';
+import ChatLog from './ChatLog.js';
 
 class App extends Component {
   render() {
-    return (
-      <div className="App-list">
-        {this.props.store.lists.map((list) =>
-          <List
-              key={list.id}
-              header={list.header}
-              cards={ 
-                 list.cardIds.map(key => (
-                  this.props.store.allCards[key]       
-                 )
-                 )}
-                />    
-        )}
-        </div>
-    );
+    return <div>
+      <ParticipantList participants={this.props.store.participants}/>
+      <Stage onStage={this.props.store.participants.filter(person => person.onStage)}/>
+      <ChatLog participants={this.props.store.participants} chatEvents={this.props.store.chatEvents}/>
+    </div>
   }
 }
 
