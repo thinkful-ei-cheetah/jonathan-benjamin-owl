@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div
+  className="container grid-row"
+>
+  <div
+    className="grid-item col-1"
+  >
+    <div
+      className="person-name"
+    >
+      Koren Templeton
+    </div>
+    <img
+      alt="{person.name} avatar"
+      className="avatar-on-stage"
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+    />
+  </div>
+</div>
+`;

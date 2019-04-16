@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div>
+  <div
+    className="blah"
+  >
+    <div>
+      <img
+        alt="{chat.name} avatar"
+        className="avatar"
+        src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+      />
+      <span>
+        Axe Kubicka
+      </span>
+      <span>
+        Wed Jan 30 2019 07:48:04 GMT-0500 (Eastern Standard Time)
+      </span>
+      <div>
+        Hello world
+      </div>
+    </div>
+  </div>
+  <div
+    className="blah"
+  >
+    <div>
+      <div>
+        Wed Jan 30 2019 07:48:04 GMT-0500 (Eastern Standard Time)
+      </div>
+      <div>
+        Caty Flucker
+         
+        gave a thumbs-up
+      </div>
+    </div>
+  </div>
+  <div
+    className="blah"
+  >
+    <div>
+      <div>
+        Wed Jan 30 2019 07:48:04 GMT-0500 (Eastern Standard Time)
+      </div>
+      <div>
+        Frank Runciman
+         
+        gave a thumbs-down
+      </div>
+    </div>
+  </div>
+  <div
+    className="blah"
+  >
+    <div>
+      <div>
+        Wed Jan 30 2019 07:49:04 GMT-0500 (Eastern Standard Time)
+      </div>
+      <div>
+        Koren Templeton
+         
+        raised their hand
+      </div>
+    </div>
+  </div>
+  <div
+    className="blah"
+  >
+    <div>
+      <div>
+        Wed Jan 30 2019 07:49:04 GMT-0500 (Eastern Standard Time)
+      </div>
+      <div>
+        Koren Templeton
+         
+        clapped
+      </div>
+    </div>
+  </div>
+  <div
+    className="blah"
+  >
+    <div>
+      <div>
+        Wed Jan 30 2019 07:49:04 GMT-0500 (Eastern Standard Time)
+      </div>
+      <div>
+        Koren Templeton
+         
+        joined
+      </div>
+    </div>
+  </div>
+  <div
+    className="blah"
+  >
+    <div>
+      <div>
+        Wed Jan 30 2019 07:50:04 GMT-0500 (Eastern Standard Time)
+      </div>
+      <div>
+        Ashla Attwool
+         
+        left
+      </div>
+    </div>
+  </div>
+  <div
+    className="blah"
+  >
+    <div>
+      <div>
+        Wed Jan 30 2019 07:51:04 GMT-0500 (Eastern Standard Time)
+      </div>
+      <div>
+        Axe Kubicka
+         
+        joined the stage
+      </div>
+    </div>
+  </div>
+  <div
+    className="blah"
+  >
+    <div>
+      <div>
+        Wed Jan 30 2019 07:52:04 GMT-0500 (Eastern Standard Time)
+      </div>
+      <div>
+        Axe Kubicka
+         
+        left the stage
+      </div>
+    </div>
+  </div>
+</div>
+`;

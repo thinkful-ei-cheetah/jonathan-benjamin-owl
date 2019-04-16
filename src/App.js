@@ -13,7 +13,8 @@ class App extends Component {
   render() {
    
     return <div>
-      <ParticipantList participants={this.props.store.participants}/>
+      <ParticipantList participants={this.props.store.participants.filter(person => person.inSession)}/>
+      <ParticipantList participants={this.props.store.participants.filter(person => !person.inSession)} />
       <Stage onStage={this.props.store.participants.filter(person => person.onStage)}/>
       <ChatLog participants={this.props.store.participants} chatEvents={this.props.store.chatEvents}/>
     </div>

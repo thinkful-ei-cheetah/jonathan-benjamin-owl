@@ -1,0 +1,28 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid black; 
+}
+
+.grid-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.grid-item {
+  width: 200px;
+  padding: 10px;
+}
+
+.col-1 {
+  flex-basis: 33.33%;
+}
+
+.col-2 {
+  flex-basis: 66%;
+}
+
+.col-3 {
+  flex-basis: 100%;
+}
