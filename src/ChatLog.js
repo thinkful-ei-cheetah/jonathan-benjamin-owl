@@ -3,8 +3,6 @@ import './ChatLog.css';
 
 class ChatLog extends Component {
 
-
-    
     constructor(props)
     {
         super(props);

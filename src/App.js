@@ -4,11 +4,7 @@ import ParticipantList from './ParticipantList.js';
 import Stage from './Stage.js';
 import ChatLog from './ChatLog.js';
 
-
-
-
 class App extends Component {
-
   
   render() {
    
